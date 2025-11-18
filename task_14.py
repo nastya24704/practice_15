@@ -8,8 +8,7 @@ def numbers(x: int) -> None:
 
 def main():
     x = int(input())
-    print("Digits in reverse order:")
-    numbers(x)
+    print(numbers(x))
 
 if __name__ == "__main__":
     main()
