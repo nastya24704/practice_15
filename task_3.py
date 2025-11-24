@@ -8,8 +8,7 @@ def progress(a1: float, r: float, n: int) -> float:
     '''
     if n == 1:
         return a1
-    else:
-        return progress(a1, r, n - 1) + r
+    return progress(a1, r, n - 1) + r
 
 def main():
     a1 = float(input())
@@ -18,5 +17,5 @@ def main():
     result = progress(a1, r, n)
     print(result)
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     main()
