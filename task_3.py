@@ -15,6 +15,7 @@ def main():
     a1 = float(input())
     r = float(input())
     n = int(input())
+    
     result = progress(a1, r, n)
     print(result)
 
