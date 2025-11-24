@@ -7,14 +7,12 @@ def mod_number(a: int, b: int) -> int:
     '''
     if a < b:
         return a
-    else:
-        return mod_number(a - b, b)
+    return mod_number(a - b, b)
 
 def main():
-    a = 17
-    b = 5
-    result = mod_number(a, b)
-    print(result)
+    a = int(input())
+    b =  int(input())
+    print(mod_number(a, b))
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     main()
