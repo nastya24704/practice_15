@@ -28,7 +28,7 @@ def main() -> float:
     n = int(input('Enter a natural number: '))
 
     if n <= 0:
-        print('Exponent must be a natural number, please enter n > 0')
+        print('please enter n > 0')
         return None
     print(pownum(a, n))
 
