@@ -8,15 +8,14 @@ def sum_progress(a1: float, r: float, n: int) -> float:
     '''
     if n == 0:
         return 0
-    else:
-        return sum_progress(a1, r, n - 1) + a1 + (n - 1) * r
+    return sum_progress(a1, r, n - 1) + a1 + (n - 1) * r
 
 def main():
     a1 = float(input())
     r = float(input())
     n = int(input())
-    result = sum_progress(a1, r, n)
-    print(result)
+    
+    print(sum_progress(a1, r, n))
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     main()
