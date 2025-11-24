@@ -11,14 +11,12 @@ def degree5(n: int) -> int:
         res = degree5(n // 5)
         if res >= 0:
             return res + 1
-        else:
-            return -1
+        return -1
+
 
 def main():
     n = int(input())
-    result = degree5(n)
-    print(result)
+    print(degree5(n))
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     main()
-
