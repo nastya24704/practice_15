@@ -10,6 +10,7 @@ def progress(a1: float, r: float, n: int) -> float:
         return a1
     return progress(a1, r, n - 1) + r
 
+
 def main():
     a1 = float(input())
     r = float(input())
