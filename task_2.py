@@ -21,9 +21,7 @@ def main():
         Main function to demonstrate the digit counting.
     '''
     n = int(input('Enter a natural number: '))
-
-    result = count(n)
-    print(result)
+    print(count(n))
 
 if __name__ == '__main__':
     main()
