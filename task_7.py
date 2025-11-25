@@ -4,8 +4,7 @@ def nod(a: int, b: int) -> int:
     '''
     if b == 0:
         return a
-    else:
-        return nod(b, a % b)
+    return nod(b, a % b)
 
 def main():
     a = int(input())
