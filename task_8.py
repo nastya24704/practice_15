@@ -11,8 +11,7 @@ def fib(k: int) -> int:
 
 def main():
     k = int(input())
-    result = fib(k)
-    print(result)
+    print(fib(k))
 
 if __name__ == "__main__":
     main()
