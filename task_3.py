@@ -15,9 +15,7 @@ def main():
     a1 = float(input())
     r = float(input())
     n = int(input())
-    
-    result = progress(a1, r, n)
-    print(result)
+    print(progress(a1, r, n))
 
 if __name__ == '__main__':
     main()
