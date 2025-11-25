@@ -8,7 +8,7 @@ def numbers(x: int) -> None:
 
 def main():
     x = int(input())
-    print(numbers(x))
+    numbers(x)
 
 if __name__ == "__main__":
     main()
