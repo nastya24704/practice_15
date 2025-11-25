@@ -10,8 +10,7 @@ def ind_maxlist(a: list, index: int = 0) -> int:
 
 def main():
     a = []
-    idx = ind_maxlist(a)
-    print(idx)
+    print(ind_maxlist(a))
 
 if __name__ == "__main__":
     main()
