@@ -10,9 +10,7 @@ def combin(n: int, k: int) -> int:
 def main():
     n = int(input())
     k = int(input())
-    result = combin(n, k)
-    print(result)
+    print(combin(n, k))
 
 if __name__ == "__main__":
     main()
-
