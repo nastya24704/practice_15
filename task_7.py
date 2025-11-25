@@ -10,8 +10,7 @@ def nod(a: int, b: int) -> int:
 def main():
     a = int(input())
     b = int(input())
-    result = nod(a, b)
-    print(result)
+    print(nod(a, b))
 
 if __name__ == "__main__":
     main()
