@@ -13,8 +13,7 @@ def odd_list(a: list, n: int) -> list:
 def main():
     a = []
     n = len(a)
-    result = odd_list(a, n)
-    print(result)
+    print(odd_list(a, n))
 
 if __name__ == "__main__":
     main()
