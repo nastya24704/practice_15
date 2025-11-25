@@ -10,9 +10,8 @@ def maxlist(a: List[int]) -> int:
 
 def main():
     a = []
-    result = maxlist(a)
-    print(result)
+    print(maxlist(a))
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     main()
 
