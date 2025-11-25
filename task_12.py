@@ -13,8 +13,7 @@ def search(a: list, x: int) -> int:
 def main():
     a = []
     x = int(input())
-    result = search(a, x)
-    print(bool(result))
+    print(bool(search(a, x)))
 
 if __name__ == "__main__":
     main()
